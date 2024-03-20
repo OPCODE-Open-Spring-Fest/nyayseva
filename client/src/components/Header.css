@@ -1,0 +1,115 @@
+header {
+   
+    width: 100%;
+
+   
+}
+.Logo{
+    height: 60px;
+    background-color: #F5F5F5;
+}
+header  .upper {
+    padding: 0.5rem 2rem;
+    background-color: #F5F5F5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.upper  .upperRight {
+    display: flex;
+    gap: 4rem;
+}
+.upper .upperLeft{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+}
+.upperLeft h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+
+   
+
+}
+.search  span {
+    cursor: pointer;
+}
+
+.signin_up {
+    display: flex;
+    gap: 20px;
+
+}
+.signin_up .Link{
+  font-size: 17px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  background-color: #857e7e3d;
+}
+.signin_up .Link:hover{
+    padding: 3px 10px;
+background-color: #857e7eb5;
+
+
+}
+
+  
+
+
+
+.lower{
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lower .lowerLeft{
+    display: flex;
+    align-items:flex-end;
+    gap: 1rem;
+}
+.lower .lowerLeft span {
+    margin-bottom: 10px;
+}
+.lower .lowerLeft span:nth-child(2) h1:nth-child(1){
+font-size: 25px;
+font-weight: 400;
+
+}
+.lower .lowerLeft span:nth-child(1) h1:nth-child(1){
+    font-size: 26px;
+    font-weight: 700;
+    
+    }
+.lower .lowerLeft span h1:nth-child(2) {
+    line-height: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.lowerLeft img{
+    height: 100px;
+    width: 60px;
+}
+.lowerRight img{
+height: 100px;
+width: 220px;
+}
+
+/* Header */
+
+.headerBtn {
+    transition: 0.2s ease;
+}

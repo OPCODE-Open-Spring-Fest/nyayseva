@@ -1,0 +1,61 @@
+.interactions{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: calc(100vw - 260px);
+}
+
+.op{
+    display: flex;
+}
+
+.details{
+    /* width: 15rem;  */
+    display: flex;
+    flex-direction: row;
+}
+
+.pro{
+    display: flex;
+}
+
+
+
+
+
+.pay-btn{
+    background-color: #00bbab;
+    border-radius: 12px;
+    color: #fff;
+    position: relative;
+  
+}
+
+.file{
+    background-color: #fbfbfb;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    /* width: 100%; */
+    background-color: #FBFBFB;
+    border-radius: 12px;
+}
+
+.presonalChat{
+    
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    width: 340px;
+    right: 400px;
+    z-index: 1000;
+  
+    /* transform: translateX(300px); */
+}
+.presonalChat .transform{
+    
+    transform: translateX(290px);
+}

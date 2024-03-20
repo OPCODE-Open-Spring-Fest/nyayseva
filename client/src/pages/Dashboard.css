@@ -1,0 +1,44 @@
+.dashboard{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-image: url(../Assets/hammer.png); */
+    background-position: center;
+    background-size:cover;
+    /* height: 600px; */
+
+}
+
+.navbar{
+    background-color: #231709;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+.upper {
+    padding: 0.5rem 2rem;
+    background-color: #F5F5F5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.option{
+    gap: 5rem;
+    padding-left: 2rem;
+    display: flex;
+}
+
+
+
+.h{
+    color: #fff;
+}
+
+.logout{
+    margin-left: 40rem;
+}

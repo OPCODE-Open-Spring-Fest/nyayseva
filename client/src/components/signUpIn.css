@@ -1,0 +1,20 @@
+
+.selector{
+    margin: auto;
+    width: 380x;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(253, 225, 207, 0.608);
+    color: rgb(202, 21, 21);
+}
+.selector .btn{
+width: 190px;
+padding: 5px 10px;
+color: black;
+
+}
+.btn.active{
+    background-color: chocolate;
+    color: white;
+}

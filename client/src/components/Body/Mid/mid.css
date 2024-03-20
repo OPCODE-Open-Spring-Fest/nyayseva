@@ -1,0 +1,72 @@
+.mid{
+    /* position: relative; */
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.hero {
+    background: url("../../../Assets/hammer.png");
+    width: 100%;
+    
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.button {
+    transition: 0.3s ease;
+}
+.button:hover {
+    background-color: #e3e2e2;
+}
+.mid h3{
+    position: absolute;
+    top: 30%;
+    bottom: 70%;
+    color: white;
+    left: 10%;
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 8%;
+}
+.midFilter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.midFilter h1{
+font-size: 30px;
+}
+.midFilter .filter{
+    display: flex;
+    gap: 2rem;
+}
+.filter .filterbtn{
+    margin: auto;
+    background-color: chocolate;
+    height: 40px;
+    padding: 0px 25px;
+    border-radius: 6px;
+}
+.test{
+    width: 90%;
+    flex-direction: column;
+    -webkit-box-shadow: 15px 15px 30px -13px rgba(200,200,200,1);
+    -moz-box-shadow: 15px 15px 30px -13px rgba(200,200,200,1);
+    box-shadow: 15px 15px  30px -10px rgba(200,200,200,1);
+    align-items: center;  
+    background-color: #f5f5f5;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-top: 0.5rem;
+    width:30%;
+}
+.test-head{
+    font-size: 1.5rem;
+
+}

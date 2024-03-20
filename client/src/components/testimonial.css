@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@500&display=swap');
+.ratings{
+  width: 90%;
+  margin: auto;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  padding:2%;
+
+}
+.head{
+  text-align: center;
+  line-height: 40px;
+}
+
+.pinkhead{
+  color: rgb(204, 10, 123);
+}
+.mainhead{
+  font-size: 40px;
+}
+.greyhead{
+  color: rgb(107, 112, 112);
+  font-family: 'Inter', sans-serif;
+}
+.ratingbox{
+  padding: 2%;
+  min-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.activecard{
+  color: white;
+  width: 30%;
+  padding:20px;
+  transform: translateY(-20px);
+  border-radius: 10px;
+  background-color: #f2c17d;
+background-image: linear-gradient(315deg, #f2c17d 0%, #dc4534dd 74%);
+
+  /* background-image: linear-gradient(to right bottom, #ff69b4, #f447bf, #df20d0, #bc00e6, #7f00ff); */
+}
+.nonactivecard{
+  width: 30%;
+  padding: 20px;
+  color: grey;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.name{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  
+
+}
+.namei{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.652);
+
+}
+.time{
+  margin-top: 5px;
+  font-size: 10px;
+}
