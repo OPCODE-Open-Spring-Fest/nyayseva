@@ -89,3 +89,9 @@ NyaySeva facilitates easy and secure connections with legal professionals. Users
 ## Acknowledgement
 
 Thank you for choosing NyaySeva! We're excited to have you on board, whether you're a legal service provider looking to extend your services or a user seeking accessible legal expertise. NyaySeva is here to make legal services more accessible and efficient for everyone as part of the Smart India Hackathon.
+
+## setup .env 
+* > PORT = 4000
+* > DATABASE_URI = mongodb url
+* > SECRET_KEY =
+* > REFRESH_SECRET_KEY =
